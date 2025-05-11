@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Display Properties Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .box {
+      margin: 10px 0;
+      padding: 10px;
+      border: 2px solid #333;
+      background-color: #f0f0f0;
+    }
+
+    #block-element {
+      display: block;
+      background-color: #ffdddd;
+    }
+
+    #inline-element {
+      display: inline;
+      background-color: #ddffdd;
+      border: 2px solid green;
+      padding: 5px;
+    }
+
+    #inline-block-element {
+      display: inline-block;
+      background-color: #ddeeff;
+      width: 150px;
+      height: 100px;
+      text-align: center;
+      line-height: 100px;
+      border: 2px solid blue;
+    }
+
+    #hidden-element {
+      display: none;
+      background-color: #ffeedd;
+      border: 2px solid orange;
+      padding: 10px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>CSS Display Properties Demonstration</h2>
+
+  <div id="block-element" class="box">Block Element</div>
+
+  <span id="inline-element">Inline Element</span>
+
+  <div id="inline-block-element">Inline-Block Box</div>
+
+  <div id="hidden-element">This is a hidden element!</div>
+
+  <button>Toggle Hidden Element</button>
+
+</body>
+</html>
